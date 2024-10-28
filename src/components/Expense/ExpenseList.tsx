@@ -4,7 +4,7 @@ import { useContext } from "react";
 import { Expense } from "../../types/types";
 
 const ExpenseList = () => {
-  const { expenses } = useContext(AppContext);
+  const { expenses, budget } = useContext(AppContext);
 
   return (
     <ul className="list-group">
