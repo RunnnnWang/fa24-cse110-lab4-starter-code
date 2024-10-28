@@ -72,7 +72,7 @@ test("budget balance verification", () => {
 
   const totalCalculatedBudget = remainingNumber + spentSoFarNumber;
 
-  expect(totalCalculatedBudget).toBe(0);
+  expect(totalCalculatedBudget).toBe(totalBudget);
 
 
 });
